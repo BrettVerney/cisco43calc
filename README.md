@@ -37,3 +37,25 @@ WLC #1 in hex = 0a050bc1<br/>
 WLC #2 in hex = 0a050cbf
 
 When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy and pasted in to any DHCP Server that support the use of Option 43.
+
+## Usage
+
+### Windows
+
+```python cisco43calc.py```
+
+### MAC / OSX
+
+```python ./cisco43calc.py```
+
+**Note:**
+*If you have both Python 2 and Python 3 installed you should run* ```python3 ./cisco43calc.py```
+
+### Linux
+
+```python ./cisco43calc.py```
+
+**Note:**
+*If you have both Python 2 and Python 3 installed you should run* ```python3 ./cisco43calc.py```
+
+
