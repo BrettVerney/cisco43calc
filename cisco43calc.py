@@ -26,7 +26,12 @@ def main():
                 wlc_ip = str(wlc_ip)
                 # Convert IP address strings to hex & append to list 
                 wlc_ip = socket.inet_aton(wlc_ip).hex()
-                iplist.append(wlc_ip)
+                if wlc_ip not in iplist:
+                    iplist.append(wlc_ip)
+                else:
+                    if wlc_ip in iplist:
+                        count -= 1
+                        print ('\n' + 'IP Address already entered. Try again or press CTRL+C to exit.')
             except KeyboardInterrupt:
                 sys.exit(0)
             except:
@@ -37,7 +42,7 @@ def main():
         # Join hex formatted IP addresses together in single line, with no spacing
         hexlist = (''.join(iplist))
         # Convert IP count to hex/base 16, remove leading '0xf'
-        hexcount = int(hex(count*4), 16)
+        hexcount = int(hex(len(iplist)*4), 16)
         # Print at least two digits, add leaging '0' where required
         hexcount = '{:02X}'.format(hexcount)
         # Combine and print output to screen for user
