@@ -4,11 +4,13 @@ A python DHCP Option 43 Generator for Cisco Lightweight APs
 **cisco43calc.py**
 
 **Author:** Brett Verney</br>
-**Version:** v0.2 | 04-03-2020
+**Version:** v0.3 | 07-04-2020
 
 This script converts a list of user supplied IP addresses to a TLV hexadecimal string required for DHCP Option 43 as used by Cisco Lightweight Access Point (LWAPPs) for discovering Cisco Wireless LAN Controllers (WLCs).
 
 It simply asks the user for the number of WLCs to be used in a network, returns a prompt requesting the IP address of each, and converts the items to a complete DHCP Option 43 string.
+
+Thanks to [Yauhen Shulitski](https://github.com/jsnjack) for the advice on arg parsing.
 
 ## Background
 
@@ -42,20 +44,32 @@ When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy a
 
 ### Windows
 
-```python cisco43calc.py```
+**Interactive Mode** - ```python cisco43calc.py```
 
-### MAC / OSX
+**Argument Mode** - ```python cisco43calc.py <ip_address_1> <ip address_2> <ip_address_x>```
 
-```python ./cisco43calc.py```
+### MAC/OSX & Linux
 
-**Note:**
-*If you have both Python 2 and Python 3 installed you should run* ```python3 ./cisco43calc.py```
+**Interactive Mode** -```python ./cisco43calc.py```
 
-### Linux
-
-```python ./cisco43calc.py```
+**Argument Mode** - ```python ./cisco43calc.py <ip_address_1> <ip address_2> <ip_address_x>```
 
 **Note:**
 *If you have both Python 2 and Python 3 installed you should run* ```python3 ./cisco43calc.py```
 
+### Examples
+#### Interactive Mode
+```
+> python cisco43calc.py
+Number of WLCs in network: 2
+WLC #1 IP Address: 10.6.5.11
+WLC #2 IP Address: 10.6.50.11
 
+Your DHCP Option 43 value is: f1080a06050b0a06320b
+```
+
+#### Argument Mode
+```
+> python cisco43calc.py 10.6.5.11 10.6.50.11
+f1080a06050b0a06320b
+```
