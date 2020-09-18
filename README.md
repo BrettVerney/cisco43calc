@@ -10,8 +10,6 @@ This script converts a list of user supplied IP addresses to a TLV hexadecimal s
 
 It simply asks the user for the number of WLCs to be used in a network, returns a prompt requesting the IP address of each, and converts the items to a complete DHCP Option 43 string.
 
-Thanks to [Yauhen Shulitski](https://github.com/jsnjack) for the advice on arg parsing.
-
 ## Background
 
 A common method for a Cisco LWAPPs to discover and join a Cisco WLC is to specify a list of WLC IP addresses within the vendor specific DHCP Option 43, which can be returned by a DHCP server within a DHCP Offer message. The AP however, requires the value to be returned in hexadecimal format by specifying a concatenated string comprised of Type-Length-Value (TLV) blocks as follows:
@@ -73,3 +71,7 @@ Your DHCP Option 43 value is: f1080a06050b0a06320b
 > python cisco43calc.py 10.6.5.11 10.6.50.11
 f1080a06050b0a06320b
 ```
+
+
+## Special Thanks
+[Yauhen Shulitski](https://github.com/jsnjack) for the advice on arg parsing.
