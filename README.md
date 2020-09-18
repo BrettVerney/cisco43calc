@@ -74,4 +74,4 @@ f1080a06050b0a06320b
 
 
 ## Special Thanks
-- [Yauhen Shulitski](https://github.com/jsnjack) for the advice on arg parsing.
+[Yauhen Shulitski](https://github.com/jsnjack) for the advice on arg parsing.
