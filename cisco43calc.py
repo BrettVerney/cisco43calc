@@ -1,5 +1,5 @@
 # Script by Brett Verney | @wifiwizardofoz
-# Version: v0.3 | 07-04-2020
+# Version: v1.0 | 30-09-2020
 
 import sys
 import ipaddress
