@@ -1,3 +1,5 @@
+https://developer.cisco.com/codeexchange/github/repo/wifiwizardofoz/ciscoType5hash
+
 # cisco43calc
 A python DHCP Option 43 Generator for Cisco Lightweight APs
 
