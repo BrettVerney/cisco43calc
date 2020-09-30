@@ -33,8 +33,8 @@ The TLV blocks required are:
 
 Type = f1<br/>
 Length = 08<br/>
-WLC #1 in hex = 0a050bc1<br/>
-WLC #2 in hex = 0a050cbf
+WLC#1 in hex = 0a050bc1<br/>
+WLC#2 in hex = 0a050cbf
 
 When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy and pasted in to any DHCP Server that support the use of Option 43.
 
@@ -44,7 +44,11 @@ When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy a
 
 **Interactive Mode** - ```python cisco43calc.py```
 
+![Interactive_Mode_Example](https://github.com/wifiwizardofoz/cisco43calc/blob/master/interactive_mode_example.PNG)
+
 **Argument Mode** - ```python cisco43calc.py <ip_address_1> <ip address_2> <ip_address_x>```
+
+![Argument_Mode_Example](https://github.com/wifiwizardofoz/cisco43calc/blob/master/argument_mode_example.PNG)
 
 ### MAC/OSX & Linux
 
