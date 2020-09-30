@@ -44,11 +44,9 @@ When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy a
 
 **Interactive Mode** - ```python cisco43calc.py```
 
-![Interactive_Mode_Example](example-interactive_mode.png)
 
 **Argument Mode** - ```python cisco43calc.py <ip_address_1> <ip address_2> <ip_address_x>```
 
-![Argument_Mode_Example](example-argument_mode.png)
 
 ### MAC/OSX & Linux
 
@@ -61,20 +59,10 @@ When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy a
 
 ### Examples
 #### Interactive Mode
-```
-> python cisco43calc.py
-Number of WLCs in network: 2
-WLC #1 IP Address: 10.6.5.11
-WLC #2 IP Address: 10.6.50.11
-
-Your DHCP Option 43 value is: f1080a06050b0a06320b
-```
+![Interactive_Mode_Example](example-interactive_mode.png)
 
 #### Argument Mode
-```
-> python cisco43calc.py 10.6.5.11 10.6.50.11
-f1080a06050b0a06320b
-```
+![Argument_Mode_Example](example-argument_mode.png)
 
 
 ## Special Thanks
