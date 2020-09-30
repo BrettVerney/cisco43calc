@@ -1,5 +1,4 @@
-https://developer.cisco.com/codeexchange/github/repo/wifiwizardofoz/ciscoType5hash
-
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/wifiwizardofoz/cisco43calc)
 # cisco43calc
 A python DHCP Option 43 Generator for Cisco Lightweight APs
 
