@@ -44,11 +44,11 @@ When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy a
 
 **Interactive Mode** - ```python cisco43calc.py```
 
-![Interactive_Mode_Example](https://github.com/wifiwizardofoz/cisco43calc/blob/master/example-interactive_mode.PNG)
+![Interactive_Mode_Example](example-interactive_mode.png)
 
 **Argument Mode** - ```python cisco43calc.py <ip_address_1> <ip address_2> <ip_address_x>```
 
-![Argument_Mode_Example](https://github.com/wifiwizardofoz/cisco43calc/blob/master/example-argument_mode.PNG)
+![Argument_Mode_Example](example-argument_mode.png)
 
 ### MAC/OSX & Linux
 
