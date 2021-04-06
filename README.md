@@ -67,4 +67,4 @@ When we assemble the string, we get **f1080a050bc10a050cbf**. This can be copy a
 
 
 ## Special Thanks
-[Yauhen Shulitski](https://github.com/jsnjack) for the advice on arg parsing.
+[Josh Schmelzle](https://github.com/joshschmelzle/) for helping me figure out Type 8 and Type 9 requirements.
