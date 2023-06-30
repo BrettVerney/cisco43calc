@@ -5,7 +5,7 @@ A python DHCP Option 43 Generator for Cisco Lightweight APs
 **cisco43calc.py**
 
 **Author:** Brett Verney</br>
-**Version:** v1.0 | 30-09-2020
+**Version:** v2.0 | 30-6-2023
 
 This script converts a list of user supplied IP addresses to a TLV hexadecimal string required for DHCP Option 43 as used by Cisco Lightweight Access Point (LWAPPs) for discovering Cisco Wireless LAN Controllers (WLCs).
 
